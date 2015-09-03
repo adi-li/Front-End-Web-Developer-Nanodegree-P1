@@ -1,0 +1,88 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* General */
+html,
+body {
+    font-family: "Lato";
+}
+
+.wrap {
+    max-width: 100%;
+}
+
+/* Header */
+.header {
+    padding-top: 20px;
+}
+
+.name-and-position {
+    text-align: right;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.name {
+    font-size: 4em;
+}
+
+.position {
+    font-size: 1.5em;
+}
+
+hr {
+    height: 5px;
+    background-color: #bbb;
+    display: block;
+    border: none;
+}
+
+/* Featured works */
+.work {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-title {
+    padding: 0 30px;
+    font-size: 2em;
+    color: #bcbbbb;
+    margin-top: 20px;
+}
+
+.project-name {
+    font-size: 1.5em;
+    color: #747704;
+    text-transform: uppercase;
+}
+
+.work,
+.work:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #bcbbbb;
+}
+
+.work:hover {
+    background-color: #f8981c;
+    color: #fff;
+}
+
+/* iframe */
+iframe {
+    width: 100%;
+    max-width: 1024px;
+}
+
+@media only screen and (max-width: 768px) {
+    .name,
+    .position,
+    .logo,
+    .section-title {
+        text-align: center;
+    }
+}

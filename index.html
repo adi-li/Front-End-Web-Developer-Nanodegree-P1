@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Framework Test page</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=1">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="row header">
+      <div class="col-sm-6 logo"><img alt="logo" class="wrap img-circle" src="http://placehold.it/120x120" srcset="http://placehold.it/240x240 2x, http://placehold.it/360x360 3x"></div>
+      <div class="col-sm-6 name-and-position">
+        <h1 class="name">Adi Li</h1>
+        <h4 class="position">Front-end Ninja</h4>
+      </div>
+    </header>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-12"><img alt="hero" class="wrap" src="http://placehold.it/1140x600" srcset="http://placehold.it/2280x1200 2x, http://placehold.it/3420x1800 3x"></div>
+    </div>
+
+    <div class="row featured-works">
+      <div class="col-md-12 section-title">Featured Work</div>
+      <section data-toggle="modal" data-target="#appifyModal" class="col-md-4 col-sm-6 col-xs-12 work text-center">
+        <img alt="Appify" class="wrap" src="http://placehold.it/360x300" srcset="http://placehold.it/720x600 2x, http://placehold.it/1080x900 3x">
+        <h3 class="project-name">Appify</h3>
+        <span class="link">https://github.com/udacity/Appify/</span>
+      </section>
+      <section data-toggle="modal" data-target="#sunflowerModal" class="col-md-4 col-sm-6 col-xs-12 work text-center">
+        <img alt="Sunflower" class="wrap" src="http://placehold.it/360x300" srcset="http://placehold.it/720x600 2x, http://placehold.it/1080x900 3x">
+        <h3 class="project-name">Sunflower</h3>
+        <span class="link">https://github.com/udacity/Sunflower/</span>
+      </section>
+      <section data-toggle="modal" data-target="#bokehModal" class="col-md-4 col-sm-6 col-xs-12 work text-center">
+        <img alt="Bokeh" class="wrap" src="http://placehold.it/360x300" srcset="http://placehold.it/720x600 2x, http://placehold.it/1080x900 3x">
+        <h3 class="project-name">Bokeh</h3>
+        <span class="link">https://github.com/udacity/Bokeh/</span>
+      </section>
+    </div>
+
+  </div>
+
+  <div class="modal fade" id="appifyModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Appify</h4>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://github.com/udacity/Appify/"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="sunflowerModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Sunflower</h4>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://github.com/udacity/Sunflower/"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="bokehModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Bokeh</h4>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://github.com/udacity/Bokeh/"></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
